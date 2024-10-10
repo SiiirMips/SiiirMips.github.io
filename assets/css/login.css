@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfcfcc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    background-color: #F5F5F7;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 1500px;
+    height: 800px;
+}
+
+.login-left {
+    background-color: #E8E8E8;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-right {
+    background-color: #FFFFFF;
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-illustration img {
+    width: 500px;
+    height: auto;
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.0rem;
+}
+
+.form-group.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-group.options label {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.options input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 1,3px; /* Hier können Sie den Wert anpassen */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #FFF;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.google-login {
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #DDD;
+}
+
+.google-login:hover {
+    background-color: #F5F5F5;
+}
+
+.signup-link {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #000;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* EMAIL EINGABE */
+.form-control1 {
+    font-family: 'Poppins', Arial, sans-serif;
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+  }
+  
+  .form-control1 input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #000000 solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .form-control1 input:focus,
+  .form-control1 input:valid {
+    outline: 0;
+    border-bottom-color: rgb(0, 0, 0);
+  }
+  
+  .form-control1 label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .form-control1 label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    color: #000000;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .form-control1 input:focus+label span,
+  .form-control1 input:valid+label span {
+    color: rgb(5, 5, 5);
+    transform: translateY(-30px);
+  }
+
+  .form-control2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+  }
+  
+  .form-control2 input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #000000 solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #000000;
+  }
+  
+  .form-control2 input:focus,
+  .form-control2 input:valid {
+    outline: 0;
+    border-bottom-color: rgb(0, 0, 0);
+  }
+  
+  .form-control2 label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .form-control2 label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    color: #000000;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .form-control2 input:focus+label span,
+  .form-control2 input:valid+label span {
+    color: rgb(5, 5, 5);
+    transform: translateY(-30px);
+  }

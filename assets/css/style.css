@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f6;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: #f4f6f6;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container .logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-container span {
+    font-weight: 500;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000; /* Textfarbe */
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar nav ul li a svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px; /* Abstand zwischen Icon und Text */
+    fill: currentColor;
+}
+
+.sidebar nav ul li a span {
+    font-size: 16px;
+}
+
+.main-content {
+    margin: 10px 10px 10px 250px; /* Oben 10px, Rechts 0, Unten 10px, Links 250px */
+    padding: 20px;
+    background-color: #fff;
+    min-height: calc(100vh - 20px); /* Höhe anpassen, um den Abstand zu berücksichtigen */
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
